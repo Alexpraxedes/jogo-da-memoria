@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Jogo da memória - Bootcamp Full Stack Developer TQI</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+<body onload="shuffleBoard()">
+    <header>
+        <h1>Jogo da memória <span>Séries</span></h1>
+        <a  class="tooltip" href="javascript:void(0);" onclick="shuffleBoardAll();" id="shuffleBoard">
+            <img src="./assets/images/reload.svg" alt="Embaralhar">
+            <span class="tooltiptext">Embaralhar cartas</span>
+        </a>
+    </header>
+
+    <main class="memory-game">
+        <div class="card" data-card="001">
+            <img class="card-front" src="./assets/images/001.jpeg" alt="Face da carta">
+            <img class="card-back" src="./assets/images/verso.jpeg" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="002">
+            <img class="card-front" src="./assets/images/002.jpeg" alt="Face da carta">
+            <img class="card-back" src="./assets/images/verso.jpeg" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="003">
+            <img class="card-front" src="./assets/images/003.jpg" alt="Face da carta">
+            <img class="card-back" src="./assets/images/verso.jpeg" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="004">
+            <img class="card-front" src="./assets/images/004.webp" alt="Face da carta">
+            <img class="card-back" src="./assets/images/verso.jpeg" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="005">
+            <img class="card-front" src="./assets/images/005.jpeg" alt="Face da carta">
+            <img class="card-back" src="./assets/images/verso.jpeg" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="006">
+            <img class="card-front" src="./assets/images/006.jpg" alt="Face da carta">
+            <img class="card-back" src="./assets/images/verso.jpeg" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="001">
+            <img class="card-front" src="./assets/images/001.jpeg" alt="Face da carta">
+            <img class="card-back" src="./assets/images/verso.jpeg" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="002">
+            <img class="card-front" src="./assets/images/002.jpeg" alt="Face da carta">
+            <img class="card-back" src="./assets/images/verso.jpeg" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="003">
+            <img class="card-front" src="./assets/images/003.jpg" alt="Face da carta">
+            <img class="card-back" src="./assets/images/verso.jpeg" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="004">
+            <img class="card-front" src="./assets/images/004.webp" alt="Face da carta">
+            <img class="card-back" src="./assets/images/verso.jpeg" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="005">
+            <img class="card-front" src="./assets/images/005.jpeg" alt="Face da carta">
+            <img class="card-back" src="./assets/images/verso.jpeg" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="006">
+            <img class="card-front" src="./assets/images/006.jpg" alt="Face da carta">
+            <img class="card-back" src="./assets/images/verso.jpeg" alt="Verso da carta">
+        </div>
+    </main>
+
+    <div class="loader">
+        <div class="c-loader"></div>
+    </div>
+
+    <script src="./assets/js/scripts.js"></script>
+</body>
+</html>
